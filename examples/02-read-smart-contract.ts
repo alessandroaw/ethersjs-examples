@@ -1,10 +1,10 @@
-import { Contract, ethers } from "ethers";
+import { Contract, JsonRpcProvider, formatEther } from "ethers";
 
 // Use local test node Anvil forking BSC
 const PROVIDER_URL = "HTTP://127.0.0.1:8545";
 
 // Connecting to provider
-const provider = new ethers.JsonRpcProvider(PROVIDER_URL);
+const provider = new JsonRpcProvider(PROVIDER_URL);
 
 // ABI short version
 const ERC20_ABI = [
@@ -27,11 +27,19 @@ const main = async () => {
   // Calling read method from the contract
   const name = await contract.name();
   const symbol = await contract.symbol();
+  const totalSupply = await contract.totalSupply();
   const balance = await contract.balanceOf(accountAddress);
 
+  console.log(`===Contract===`);
+  console.log(`contract address: ${contractAddress}`);
   console.log(`name: ${name}`);
   console.log(`symbol: ${symbol}`);
+  console.log(`totalSupply: ${totalSupply}`);
+
+  console.log(`===Account===`);
+  console.log(`Address: ${accountAddress}`);
   console.log(`balance: ${balance} CAKE`);
+  console.log(`balance formatted: ${formatEther(balance)} CAKE`);
 };
 
 main();
