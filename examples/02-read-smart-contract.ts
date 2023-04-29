@@ -2,6 +2,7 @@ import { Contract, JsonRpcProvider, formatEther } from "ethers";
 
 // Use local test node Anvil forking BSC
 const PROVIDER_URL = "HTTP://127.0.0.1:8545";
+// const PROVIDER_URL = "https://nodes.pancakeswap.info";
 
 // Connecting to provider
 const provider = new JsonRpcProvider(PROVIDER_URL);
@@ -14,7 +15,7 @@ const ERC20_ABI = [
   "function balanceOf(address) view returns (uint)",
 ];
 
-// Address of PancakeSwap Token
+// Address of Cake Token
 const contractAddress = "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82";
 
 // Mock account address
