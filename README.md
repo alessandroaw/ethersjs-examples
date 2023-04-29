@@ -1,8 +1,8 @@
-# **`basic-ethersjs-concept`**
+# **`ethersjs-examples`**
 
 ## **Description 🚀**
 
-**`basic-ethersjs-concept`** is a collection of simple examples demonstrating various concepts of the **[ethers.js](https://github.com/ethers-io/ethers.js/)** library. This project is my journey of learning web3 developement specifically ethersjs library. I truly hope you find these examples helpful, and that they inspire you to dive deeper into the world of Ethereum and blockchain development!
+**`ethersjs-examples`** is a collection of simple examples demonstrating various concepts of the **[ethers.js](https://github.com/ethers-io/ethers.js/)** library. This project is my journey of learning web3 developement specifically ethersjs library. I truly hope you find these examples helpful, and that they inspire you to dive deeper into the world of Ethereum and blockchain development!
 
 While most examples are tailored for the Binance Smart Chain (BSC), they can also be used for Ethereum, as it is the foundation of the tools used. Simply change the network and contract addresses accordingly.
 
