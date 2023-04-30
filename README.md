@@ -15,7 +15,7 @@ While most examples are tailored for the Binance Smart Chain (BSC), they can als
 
 ## **Example Descriptions 📚**
 
-1. **01-interact-with-accounts.ts**: Demonstrates how to create and manage Ethereum accounts, as well as how to sign and verify messages using ethers.js.
+1. **01-interact-with-accounts.ts**: Demonstrates how to connect with Node and read account balance using ethers.js 
 2. **02-read-smart-contract.ts**: Shows how to read data from a smart contract deployed on the Ethereum blockchain using ethers.js.
 3. **03-send-signed-transaction.ts**: Teaches how to send signed transactions, such as transferring Ether between accounts, using ethers.js.
 4. **04-write-smart-contract.ts**: Illustrates how to write data to a smart contract deployed on the Ethereum blockchain using ethers.js.
