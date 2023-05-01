@@ -28,6 +28,6 @@ While most examples are tailored for the Binance Smart Chain (BSC), they can als
 1. Clone this repository to your local machine.
 2. Run **`npm install`** to install the necessary dependencies.
 3. Start your local test node or connect with blockchain provider
-4. Execute any example by running **`npx ts-node examples/<example-file>.ts`**, replacing **`<example-file>`** with the desired example file name.
+4. Execute any example by running **`npx ts-node src/<example-file>.ts`**, replacing **`<example-file>`** with the desired example file name.
 
 Note: You may need to provide your own Ethereum private key or mnemonic for certain examples that require account access. Make sure not to share or expose your private key or mnemonic to anyone.
